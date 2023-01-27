@@ -1,0 +1,19 @@
+[build-system]
+requires = ["hatchling","pandas","numpy"]
+build-backend = "hatchling.build"
+
+[project]
+name = "example_math_saiM"
+version = "0.0.1"
+authors = [ {name = "Sai Girish", email = "lucky.girish97@gmail.com"},]
+
+description = "Example package for practice of creating a package"
+requires-python = ">=3.7"
+classifiers = [
+    "Progrmming Lnaguage :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Girish35897/sample_package"
